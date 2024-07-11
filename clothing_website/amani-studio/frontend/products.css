@@ -62,11 +62,10 @@ body {
         }
 
         .recently-viewed {
-            clear: both;
             padding: 20px;
             justify-content: center;
             display: flex;
-    flex-wrap: wrap;
+            flex-wrap: wrap;
         }
 
         .recently-viewed {
