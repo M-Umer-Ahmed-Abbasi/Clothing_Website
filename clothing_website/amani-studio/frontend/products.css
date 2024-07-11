@@ -1266,3 +1266,19 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+            .recently-viewed {
+                padding: 10px;
+                flex-direction: column;
+                align-items: center;
+            }
+            .recently-viewed a {
+                margin: 10px 0;
+                width: 90%;
+                max-width: 300px;
+            }
+            .recently-viewed h2 {
+                font-size: large;
+            }
+        }
