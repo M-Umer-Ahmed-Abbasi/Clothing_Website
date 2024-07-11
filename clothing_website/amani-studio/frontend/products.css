@@ -66,6 +66,7 @@ body {
             padding: 20px;
             justify-content: center;
             display: flex;
+    flex-wrap: wrap;
         }
 
         .recently-viewed {
