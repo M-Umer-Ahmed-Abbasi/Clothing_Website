@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* General Styles */
+body {
+  font-family: "Jost", sans-serif;
+      margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #f8f8f8;
+    font-style: normal;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+
+.PageFont {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  line-height: 2.0;
+  color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Top Message */
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.breadcrumb-section {
+  line-height: 2.25rem;
+}
+
+
+.breadcrumb {
+    word-spacing: 5px;
+}
+
+.breadcrumb-container {
+  margin: 40px;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center content horizontally */
+}
+
+
+.breadcrumb a {
+    color: black;
+}
+
+.breadcrumb a:hover {
+    color: grey;
+}
+
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 90px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+}
