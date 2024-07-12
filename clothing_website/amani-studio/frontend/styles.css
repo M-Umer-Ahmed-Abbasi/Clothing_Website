@@ -187,7 +187,13 @@ body {
     flex-wrap: wrap;
     background-color: black;
     color: white;
-    margin: 1px;
+    margin: 0px;
+    margin-top:1px;
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
 }
 
 .logo img {
@@ -219,7 +225,6 @@ body {
 .nav-menu ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
 }
 
 .nav-menu ul li a::after {
@@ -250,12 +255,13 @@ body {
 }
 
 .user-nav ul li {
-    margin: 0 5px;
+    margin: 0 11px;
 }
 
 .user-nav ul li a {
     text-decoration: none;
     color: white;
+    font-size: large;
 }
 
 .search-button {
@@ -766,6 +772,11 @@ body {
             width: fit-content;
             position: relative;
             justify-content: center;
+
+            font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
 }
 
 .view-all::after,
@@ -822,6 +833,11 @@ body {
     color: white;
     margin: 1px;
     padding: 10px;
+
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
 }
 .services img{
     width: 70px;
@@ -856,6 +872,11 @@ body {
     flex-wrap: wrap;
     color: white;
     background: white;
+
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
 }
 
 .footer-about, .footer-support, .footer-contact, .newsletter {
@@ -868,7 +889,7 @@ body {
 }
 
 .footer-support ul li {
-    margin: 10% 10%;
+    margin: 6% 10%;
 }
 
 .footer-support ul li a {
