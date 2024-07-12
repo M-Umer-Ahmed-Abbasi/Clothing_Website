@@ -940,6 +940,8 @@ body {
     display: none;
     font-size: 25px;
     font-style: bold;
+
+    z-index: 2;
 }
 
 .scroll-to-top:hover {
@@ -1015,6 +1017,8 @@ body {
 .testimonials {
     padding: 50px 20px;
     background-color: #f9f9f9;
+
+    overflow: hidden;
 }
 
 .testimonials__header h2 {
@@ -1025,6 +1029,7 @@ body {
 .swiper-container {
     width: 100%;
     padding: 20px 0;
+    overflow: hidden;
 }
 
 .swiper-slide {
@@ -1086,6 +1091,17 @@ body {
     right: 10px;
 }
 
+@media (max-width: 768px) {
+            .testimonials {
+                padding: 30px 10px;
+            }
+            .testimonial {
+                padding: 15px;
+            }
+            .swiper-container {
+                padding: 10px 0;
+            }
+        }
 
 
 /**/
@@ -1095,3 +1111,5 @@ body {
         width: 100%;
     }
 }
+
+
