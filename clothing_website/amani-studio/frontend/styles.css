@@ -1,5 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +12,7 @@ body {
     /*background-color: #87CEEB;*/
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     position: relative;
 }
@@ -854,6 +857,10 @@ body {
 
 .display{
     background: black;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
  .service, .review {
@@ -895,27 +902,6 @@ body {
 .footer-support ul li a {
     text-decoration: none;
     color: white;
-}
-.footer-contact .social-media {
-    display: flex;
-    margin-top: 10px;s
-
-    padding: 10px;
-    border-radius: 50%;
-}
-
-.footer-contact .social-media a {
-    margin-right: 10px;
-}
-
-.footer-contact .social-media img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
-.footer-contact .social-media img:hover {
-    opacity:0.7;
 }
 
 .newsletter input {
@@ -1028,7 +1014,10 @@ body {
 */
 
 body {
-    font-family: Arial, sans-serif;
+   font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1134,3 +1123,68 @@ body {
 }
 
 
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.wrapper .icon a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #1e1d1d;
+    color: white;
+    padding: 5px 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #1e1d1d;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s ease;
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover {
+    background: #1e1d1d;
+    color: white;
+    transform: scale(1.1);
+}
